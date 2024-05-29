@@ -1,10 +1,8 @@
 {
-  "name": "@uniswap/conedison",
-  "version": "0.0.1",
-  "description": "Utilities for Uniswap front-end development",
-  "repository": "https://github.com/Uniswap/conedison",
-  "homepage": "https://github.com/Uniswap/conedison#readme",
-  "bugs": "https://github.com/Uniswap/conedison/issues",
+  "name": "smartswap-conedison",
+  "version": "1.0.0",
+  "description": "Utilities for Smartswap front-end development",
+  "repository": "https://github.com/JRaghu842/smartswap-conedison.git",
   "files": [
     "dist/"
   ],
@@ -47,7 +45,6 @@
     "@types/react": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",
-    "@uniswap/sdk-core": "^3.1.0",
     "@walletconnect/ethereum-provider-v1": "npm:@walletconnect/ethereum-provider@^1.8.0",
     "@walletconnect/ethereum-provider-v2": "npm:@walletconnect/ethereum-provider@^2.4.6",
     "babel-jest": "^29.3.0",
@@ -62,10 +59,11 @@
     "prettier": "^2.2.1",
     "react": "^18.2.0",
     "semantic-release": "^19.0.2",
+    "smartswap-sdk-core": "^1.0.4",
     "typescript": "^4.4.3"
   },
   "peerDependencies": {
-    "@uniswap/sdk-core": ">=3",
-    "ethers": "^5.6.1"
+    "ethers": "^5.6.1",
+    "smartswap-sdk-core": "^1.0.4"
   }
 }
